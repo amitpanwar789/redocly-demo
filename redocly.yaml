@@ -39,7 +39,7 @@ footer:
     - href: /
       label: Cookies
 apis:
-travelapi:
+travelapi@test:
   root: 'apis/traintravelapi.yaml'
   openapi:
     hideReplay: false
