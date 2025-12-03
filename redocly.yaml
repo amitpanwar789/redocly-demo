@@ -38,29 +38,29 @@ footer:
       label: Responsible Use
     - href: /
       label: Cookies
-  apis:
-  travelapi:
-    root: 'apis/traintravelapi.yaml'
-    openapi:
-      hideReplay: false
-      hideDownloadButtons: true
-      codeSamples:
-        languages:
-          - lang: 'curl'
-            label: 'cURL'
-          - lang: 'JavaScript'
-            label: 'JS'
-          - lang: 'Go'
-          - lang: 'Ruby'
-          - lang: 'Java8+Apache'
-            label: 'Java 8'
-      hideRequestPayloadSample: true
-  museum@test:
-    root: 'apis/petstore.json'
-    openapi:
-      hideDownloadButtons: true
-      codeSamples:
-        languages:
-          - lang: 'Node.js'
-          - lang: 'go'
+apis:
+travelapi:
+  root: 'apis/traintravelapi.yaml'
+  openapi:
+    hideReplay: false
+    hideDownloadButtons: true
+    codeSamples:
+      languages:
+        - lang: 'curl'
+          label: 'cURL'
+        - lang: 'JavaScript'
+          label: 'JS'
+        - lang: 'Go'
+        - lang: 'Ruby'
+        - lang: 'Java8+Apache'
+          label: 'Java 8'
+    hideRequestPayloadSample: true
+museum@test:
+  root: 'apis/petstore.json'
+  openapi:
+    hideDownloadButtons: true
+    codeSamples:
+      languages:
+        - lang: 'Node.js'
+        - lang: 'go'
 
