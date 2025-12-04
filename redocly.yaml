@@ -36,3 +36,5 @@ footer:
       label: Cookies
 
 
+reunite:
+  ignoreLinkChecker: true
