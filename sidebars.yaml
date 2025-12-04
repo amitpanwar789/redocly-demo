@@ -1,9 +1,4 @@
 - page: guides/quickstart.md
-- group: Missions
-  page: tutorials/index.md
-  items:
-    - page: tutorials/lost-invention.md
-    - page: tutorials/missing-mathematician.md
 - group: Guides
   page: guides/index.md
   items:
@@ -21,15 +16,6 @@
       label: Train Travel API
     - page: apis/petstore.json
       label: Museum API
-- group: Tools
-  page: tools/index.md
-  items:
-    - page: tools/cli.md
-      label: CLI
-    - page: tools/sdks.md
-      label: SDKs
-    - page: tools/replay.md
-      label: Replay
 - page: changelog.md
 - page: about.md
   label: About this template
