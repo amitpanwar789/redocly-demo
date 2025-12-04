@@ -13,7 +13,7 @@ navbar:
   items:
     - page: guides/index.md
       label: Guides
-    - page: apis/index.yaml
+    - page: 'apis/index.md'
       label: API Reference
     - page: changelog.md
       label: Changelog
@@ -35,8 +35,8 @@ footer:
     - href: /
       label: Cookies
 apis:
-  travelapi@test:
-    root: 'apis/traintravelapi.yaml'
+  travel:
+    root: 'apis/travel/traintravelapi.yaml'
     openapi:
       hideReplay: false
       hideDownloadButtons: true
@@ -51,12 +51,19 @@ apis:
           - lang: 'Java8+Apache'
             label: 'Java 8'
       hideRequestPayloadSample: true
-  museum@test:
-    root: 'apis/petstore.json'
+  box:
+    root: 'apis/museum/museumapi.yaml'
     openapi:
+      hideReplay: false
       hideDownloadButtons: true
       codeSamples:
         languages:
-          - lang: 'Node.js'
-          - lang: 'go'
+          - lang: 'curl'
+            label: 'cURL'
+          - lang: 'JavaScript'
+            label: 'JS'
+          - lang: 'Go'
+          - lang: 'Ruby'
+          - lang: 'Java8+Apache'
+            label: 'Java 8'
 

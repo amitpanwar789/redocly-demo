@@ -1,0 +1,4 @@
+- page: /index.md
+  label: API Reference
+- directory: /travel
+- directory: /museum

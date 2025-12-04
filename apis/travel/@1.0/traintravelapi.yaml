@@ -62,11 +62,11 @@ tags:
       > before the expiry date 
 
 paths:
-  /stations:
+  /stations/v1:
     get:
-      summary: Get a list of train stations
+      summary: Get a list of train stations (v1)
       description: Returns a paginated and searchable list of all train stations.
-      operationId: get-stations
+      operationId: get-stations-v1
       tags:
         - Stations
       parameters:

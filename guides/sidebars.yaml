@@ -1,0 +1,9 @@
+- page: /quickstart.md
+- group: Guides
+  page: /index.md
+  items:
+    - page: /time-navigation.md
+    - page: /temporal-anchoring.md
+    - page: /event-manipulation.md
+    - group: Advanced Topics
+      directory: /advanced-topics

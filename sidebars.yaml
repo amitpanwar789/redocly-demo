@@ -1,17 +1,5 @@
-- page: guides/quickstart.md
-- group: Guides
-  page: guides/index.md
-  items:
-    - page: guides/time-navigation.md
-    - page: guides/temporal-anchoring.md
-    - page: guides/event-manipulation.md
-    - group: Advanced Topics
-      directory: guides/advanced-topics
-    
-- group: API Reference
-  items:
-    - directory: /apis/travel
-    - directory: /apis/petstore
+- $ref: '/guides/sidebars.yaml'
+- $ref: '/apis/sidebars.yaml'
 - page: changelog.md
 - page: about.md
   label: About this template
