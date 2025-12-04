@@ -23,8 +23,7 @@ Your mission begins in 1889, just days before Nikola Tesla's laboratory is set t
 
 ---
 
-**API Call Example:**
-{% openapi-code-sample operationId="setAnchor" descriptionFile="../apis/index.yaml" /%}
+
 
 **API Call Response Example:**
 
@@ -50,8 +49,7 @@ Your mission begins in 1889, just days before Nikola Tesla's laboratory is set t
 
 ---
 
-**API Call Example:**
-{% openapi-code-sample operationId="createTimeline" descriptionFile="../apis/index.yaml" /%}
+
 
 **API Call Response Example:**
 
@@ -78,8 +76,7 @@ Your mission begins in 1889, just days before Nikola Tesla's laboratory is set t
 
 ---
 
-**API Call Example:**
-{% openapi-code-sample operationId="timeTravel" descriptionFile="../apis/index.yaml" /%}
+
 
 **API Call Response Example:**
 
@@ -102,8 +99,7 @@ Your mission begins in 1889, just days before Nikola Tesla's laboratory is set t
 
 ---
 
-**API Call Example:**
-{% openapi-code-sample operationId="registerItem" descriptionFile="../apis/index.yaml" /%}
+
 
 **API Response Example:**
 
@@ -131,9 +127,6 @@ Your mission begins in 1889, just days before Nikola Tesla's laboratory is set t
 
 ---
 
-**API Call Example:**
-{% openapi-code-sample operationId="checkParadox" descriptionFile="../apis/index.yaml" /%}
-
 **API Response Example:**
 
 ```json
@@ -154,13 +147,6 @@ Your mission begins in 1889, just days before Nikola Tesla's laboratory is set t
 
 ---
 
-**API Call Example:**
-{% replay-openapi operationId="timeTravel" descriptionFile="../apis/index.yaml"
-  environment="Mock server"
-  requestBody={
-    "destination": "anc_mel2c9ba"
-  }
-/%}
 
 {% /split %}
 
