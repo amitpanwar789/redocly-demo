@@ -34,36 +34,5 @@ footer:
       label: Responsible Use
     - href: /
       label: Cookies
-apis:
-  travel:
-    root: 'apis/travel/traintravelapi.yaml'
-    openapi:
-      hideReplay: false
-      hideDownloadButtons: true
-      codeSamples:
-        languages:
-          - lang: 'curl'
-            label: 'cURL'
-          - lang: 'JavaScript'
-            label: 'JS'
-          - lang: 'Go'
-          - lang: 'Ruby'
-          - lang: 'Java8+Apache'
-            label: 'Java 8'
-      hideRequestPayloadSample: true
-  box:
-    root: 'apis/museum/museumapi.yaml'
-    openapi:
-      hideReplay: false
-      hideDownloadButtons: true
-      codeSamples:
-        languages:
-          - lang: 'curl'
-            label: 'cURL'
-          - lang: 'JavaScript'
-            label: 'JS'
-          - lang: 'Go'
-          - lang: 'Ruby'
-          - lang: 'Java8+Apache'
-            label: 'Java 8'
+
 
