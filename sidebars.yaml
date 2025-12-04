@@ -10,12 +10,8 @@
     
 - group: API Reference
   items:
-    - page: apis/index.yaml
-      label: Overview
-    - page: apis/traintravelapi.yaml
-      label: Train Travel API
-    - page: apis/petstore.json
-      label: Museum API
+    - directory: /apis/travel
+    - directory: /apis/petstore
 - page: changelog.md
 - page: about.md
   label: About this template
