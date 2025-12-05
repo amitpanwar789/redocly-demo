@@ -38,3 +38,8 @@ footer:
 
 reunite:
   ignoreLinkChecker: true
+mcp:
+  hide: false
+  docs: 
+    hide: false
+    name: My Custom Docs MCP Server
